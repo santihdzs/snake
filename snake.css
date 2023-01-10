@@ -1,0 +1,36 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: #E7E3DA;
+}
+
+.btn {
+    position: fixed;
+    bottom: 5%;
+    right: 0px;
+    transform: translateX(-50%);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.7em;
+    background-color: transparent;
+    color: #000000;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    cursor: pointer;
+    transition: all .3s;
+    z-index: 11;
+
+}
+
+.btn_works {
+    left: unset;
+    right: 10px;
+    bottom:70px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #d3d1c9;
+    color: #1B1734;
+}
